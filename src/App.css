@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  position: relative;
+}
+
+
+.yes-button,
+.no-button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.yes-button {
+  background-color: red;
+  color: white;
+}
+
+.no-button {
+  background-color: white;
+  color:black;
+  position: absolute;
+  transition: top 0.2s ease, left 0.2s ease;
+}
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
