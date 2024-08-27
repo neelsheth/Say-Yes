@@ -58,7 +58,7 @@ function App() {
         <span style={{color:"red"}}>I Love You..!!</span> Will You?
       </h1>}
       {id == null && <h1>
-        <span style={{color:cr}}>Will I get a 50% increment..??</span>
+        <span style={{color:cr}}>Will my salary be ₹35,000..??</span>
       </h1>}
       {console.log(noButtonPosition)}
       <div className="buttons" style={{marginLeft:"-90px"}}>
